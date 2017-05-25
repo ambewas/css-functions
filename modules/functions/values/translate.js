@@ -1,4 +1,4 @@
-import isObject from '../utils/isObject'
+import isObject from '../../utils/isObject'
 import applyUnitToNumbers from '../utils/applyUnitToNumbers'
 
 export default function translate(x, y) {

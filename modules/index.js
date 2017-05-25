@@ -25,3 +25,4 @@ export translateY from './functions/values/translateY'
 export translateZ from './functions/values/translateZ'
 
 export multiple from './multiple'
+export createStyleHOF from './createStyleHof.js'
