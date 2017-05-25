@@ -1,5 +1,5 @@
 import { curry } from 'ramda'
-import { generateStyleObject } from './utils/generateStyleObject.js'
+import generateStyleObject from './utils/generateStyleObject.js'
 
 const createStyleHOF = curry((style, value) => {
   let newStyleObject = generateStyleObject(style, value)
