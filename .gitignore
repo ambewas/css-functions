@@ -27,3 +27,4 @@ lib/
 coverage
 _book
 examples/react/bundle.js
+yarn.lock
