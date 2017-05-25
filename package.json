@@ -12,7 +12,8 @@
   "scripts": {
     "babel": "babel -d lib modules",
     "lint": "eslint modules",
-    "precommit": "npm run lint && npm test",
+    "clear": "rm -rf lib",
+    "precommit": "npm run clear && npm run lint && npm test",
     "prepare": "npm run precommit && npm run babel",
     "release": "npm run prepare && npm publish",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --opts test/_setup/mocha.opts",
